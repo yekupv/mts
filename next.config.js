@@ -10,9 +10,9 @@ const nextConfig = {
 				hostname: "static.mts.ru",
 			},
 		],
-		typescript: {
-			ignoreBuildErrors: true,
-		},
+	},
+	typescript: {
+		ignoreBuildErrors: true,
 	},
 };
 
