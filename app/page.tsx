@@ -19,7 +19,7 @@ export default async function Home({
 		sortBy: searchParams.sort ? searchParams.sort : "desc",
 	});
 
-	async function handleScrapeAndInsert(e) {
+	async function handleScrapeAndInsert() {
 		"use server";
 		console.log("scrapeAndInsert called");
 		await scrapeAndInsert();
