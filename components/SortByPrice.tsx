@@ -32,8 +32,8 @@ const SortByPrice = ({ minPrice, maxPrice }: SortByPriceProps) => {
 				onChange={(e) => setSortValue(e.target.value)}
 				className="border-2 p-1 rounded-md outline-none focus:border-focus:"
 			>
-				<option value="desc">Сначала дешёвые</option>
-				<option value="asc">Сначала дорогие</option>
+				<option value="asc">Сначала дешёвые</option>
+				<option value="desc">Сначала дорогие</option>
 			</select>
 		</form>
 	);
